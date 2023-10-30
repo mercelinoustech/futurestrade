@@ -1,0 +1,1128 @@
+/* Change styles for cancel button and signup button on extra small screens */
+/* @media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+
+  }
+} */
+
+
+/* mobile */
+@media (max-width: 480px) {
+  .gradient-background {
+    background: linear-gradient(300deg, #1D5B79, #0B666A, #001C30);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  height: 40px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F4CE14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:  #04AA6D;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left;
+  width: 50%; */
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.form-div{
+  width: 90%;
+  margin-top: 15%;
+  margin-left: 5%;
+  background-color: black;
+  color:#1E90FF ;
+  position: relative;
+  margin-bottom: 3%;
+
+}
+
+.input-class{
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+height: 38px;
+}
+select {
+  width: 90%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#country{
+  margin-left: 15px;
+  font-size: 0.75rem;
+
+}
+
+
+
+label{
+  margin-left: 15px;
+  font-size: 0.8rem;
+}
+
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.logo-paragraph, .login-paragraph{
+  display: flex;
+  justify-content: center;
+}
+/* .policy-paragraph{
+  margin-left: 12px;
+
+} */
+
+::placeholder{
+  font-size: 0.75rem;
+}
+.login-paragraph{
+margin-bottom: 0;
+color: white;
+font-size: 0.75rem;
+}
+.signupbtn{
+  color: black;
+ 
+}
+.fixed-chat-buuton{
+ 
+  width: 110px;
+  margin: 0 0 50px 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 0 !important;
+  text-align: center !important;
+  height: 40px;
+  min-width: 50px;
+  border-radius: 25px;
+  visibility: visible;
+  transition: none !important;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+
+}
+.fixed-button{
+float:right;
+
+
+}
+.whatsap-logo{
+  height: 30px;
+  opacity: 0.7;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 8px;
+  margin-right: 5px;
+}
+
+}
+/* extra small devices */
+@media (min-width: 481px) and (max-width: 767px){
+  .gradient-background {
+    background: linear-gradient(300deg, #1D5B79, #0B666A, #001C30);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F4CE14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:  #04AA6D;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left;
+  width: 50%; */
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.form-div{
+  width: 60%;
+  margin-top: 7%;
+margin-left: 30%;
+background-color: black;
+color:#1E90FF ;
+position: relative;
+margin-bottom: 3%;
+}
+
+.input-class{
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+
+}
+select {
+  width: 90%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#country{
+  margin-left: 15px;
+
+}
+label{
+  margin-left: 15px;
+}
+
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.logo-paragraph, .login-paragraph{
+  display: flex;
+  justify-content: center;
+}
+/* .policy-paragraph{
+  margin-left: 12px;
+
+} */
+.login-paragraph{
+margin-bottom: 0;
+color: white;
+}
+.signupbtn{
+  color: black;
+ 
+}
+.fixed-chat-buuton{
+ 
+  width: 200px;
+  margin: 0 0 50px 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 0 !important;
+  text-align: center !important;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 25px;
+  visibility: visible;
+  transition: none !important;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+
+}
+.fixed-button{
+float:right;
+
+
+}
+.whatsap-logo{
+  height: 30px;
+  opacity: 0.7;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 8px;
+  margin-right: 5px;
+}
+
+}
+
+/* small tablets */
+@media (min-width: 768px) and (max-width: 991px){
+  .gradient-background {
+    background: linear-gradient(300deg, #1D5B79, #0B666A, #001C30);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F4CE14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:  #04AA6D;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left;
+  width: 50%; */
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.form-div{
+  width: 50%;
+  margin-top: 7%;
+margin-left: 30%;
+background-color: black;
+color:#1E90FF ;
+position: relative;
+margin-bottom: 3%;
+}
+
+.input-class{
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+
+}
+select {
+  width: 90%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#country{
+  margin-left: 15px;
+
+}
+label{
+  margin-left: 15px;
+}
+
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.logo-paragraph, .login-paragraph{
+  display: flex;
+  justify-content: center;
+}
+/* .policy-paragraph{
+  margin-left: 12px;
+
+} */
+.login-paragraph{
+margin-bottom: 0;
+color: white;
+}
+.signupbtn{
+  color: black;
+ 
+}
+.fixed-chat-buuton{
+ 
+  width: 200px;
+  margin: 0 0 50px 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 0 !important;
+  text-align: center !important;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 25px;
+  visibility: visible;
+  transition: none !important;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+
+}
+.fixed-button{
+float:right;
+
+
+}
+.whatsap-logo{
+  height: 30px;
+  opacity: 0.7;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 8px;
+  margin-right: 5px;
+}
+
+}
+
+/* large tablets/ laptops */
+@media (min-width: 992px) and (max-width: 1199px){
+  .gradient-background {
+    background: linear-gradient(300deg, #1D5B79, #0B666A, #001C30);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F4CE14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:  #04AA6D;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left;
+  width: 50%; */
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.form-div{
+  width: 45%;
+  margin-top: 7%;
+margin-left: 30%;
+background-color: black;
+color:#1E90FF ;
+position: relative;
+margin-bottom: 3%;
+}
+
+.input-class{
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+
+}
+select {
+  width: 90%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#country{
+  margin-left: 15px;
+
+}
+label{
+  margin-left: 15px;
+}
+
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.logo-paragraph, .login-paragraph{
+  display: flex;
+  justify-content: center;
+}
+/* .policy-paragraph{
+  margin-left: 12px;
+
+} */
+.login-paragraph{
+margin-bottom: 0;
+color: white;
+}
+.signupbtn{
+  color: black;
+ 
+}
+.fixed-chat-buuton{
+ 
+  width: 200px;
+  margin: 0 0 50px 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 0 !important;
+  text-align: center !important;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 25px;
+  visibility: visible;
+  transition: none !important;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+
+}
+.fixed-button{
+float:right;
+
+
+}
+.whatsap-logo{
+  height: 30px;
+  opacity: 0.7;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 8px;
+  margin-right: 5px;
+}
+
+}
+
+/* desktops */
+@media (min-width: 1200px) and (max-width: 1919px){
+  .gradient-background {
+    background: linear-gradient(300deg, #1D5B79, #0B666A, #001C30);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F4CE14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:  #04AA6D;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left;
+  width: 50%; */
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.form-div{
+  width: 38%;
+  margin-top: 7%;
+margin-left: 30%;
+background-color: black;
+color:#1E90FF ;
+position: relative;
+margin-bottom: 3%;
+}
+
+.input-class{
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+
+}
+select {
+  width: 90%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#country{
+  margin-left: 15px;
+
+}
+label{
+  margin-left: 15px;
+}
+
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.logo-paragraph, .login-paragraph{
+  display: flex;
+  justify-content: center;
+}
+/* .policy-paragraph{
+  margin-left: 12px;
+
+} */
+.login-paragraph{
+margin-bottom: 0;
+color: white;
+}
+.signupbtn{
+  color: black;
+ 
+}
+.fixed-chat-buuton{
+ 
+  width: 200px;
+  margin: 0 0 50px 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 0 !important;
+  text-align: center !important;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 25px;
+  visibility: visible;
+  transition: none !important;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+
+}
+.fixed-button{
+float:right;
+
+
+}
+.whatsap-logo{
+  height: 30px;
+  opacity: 0.7;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 8px;
+  margin-right: 5px;
+}
+
+}
+
+/* extra large desktops */
+@media (min-width: 1920px){
+  .gradient-background {
+    background: linear-gradient(300deg, #1D5B79, #0B666A, #001C30);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F4CE14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:  #04AA6D;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left;
+  width: 50%; */
+  width: 90%;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.form-div{
+  width: 40%;
+  margin-top: 7%;
+margin-left: 30%;
+background-color: black;
+color:#1E90FF ;
+position: relative;
+margin-bottom: 3%;
+}
+
+.input-class{
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+
+}
+select {
+  width: 90%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#country{
+  margin-left: 15px;
+
+}
+label{
+  margin-left: 15px;
+}
+
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.logo-paragraph, .login-paragraph{
+  display: flex;
+  justify-content: center;
+}
+/* .policy-paragraph{
+  margin-left: 12px;
+
+} */
+.login-paragraph{
+margin-bottom: 0;
+color: white;
+}
+.signupbtn{
+  color: black;
+ 
+}
+.fixed-chat-buuton{
+ 
+  width: 200px;
+  margin: 0 0 50px 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 0 !important;
+  text-align: center !important;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 25px;
+  visibility: visible;
+  transition: none !important;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+
+}
+.fixed-button{
+float:right;
+
+
+}
+.whatsap-logo{
+  height: 30px;
+  opacity: 0.7;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 8px;
+  margin-right: 5px;
+}
+
+}
+
+
+
+
+
